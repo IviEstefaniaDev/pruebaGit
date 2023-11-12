@@ -16,3 +16,7 @@ function calcular() {
     document.getElementById('pantalla').value = resultado   
     console.log(resultado)
 }
+function borrarUltimoCaracter (){
+    const valorPantalla = document.getElementById('pantalla').value;
+    document.getElementByIdb('pantalla').value = valorPantalla.slice (0,-1)
+}
